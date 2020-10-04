@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<meta content="utf-8" http-equiv="encoding">
+<html>
+<head>
+	<title></title>
+    <script src = "jquery-3.5.1.min.js"></script>
+    <script src = "jquery.mobile-1.5.0-rc1.js"></script>
+    <script type="text/javascript">
+		jQuery( window ).on("swipeleft", function( event ) 
+		{
+			next_(); 
+		});
+		jQuery( window ).on("swiperight", function( event ) 
+		{
+			back_();
+		});
+	</script>
+	<script type="text/javascript" src="script.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body onload="load_()">
+	<div class="whole" id="whole">
+		<div class="audio_text"><br><br>
+			<textarea type="text" class="window1" id="window1"></textarea>
+			<button class="button_speak" id="button_speak" onclick="textToAudio()"></button><br>
+		</div>
+	</div>
+	<div class="button_main">	
+		<textarea type="text" class="window2" id="window2"></textarea><br>
+		<textarea type="text" class="window3" id="window3"></textarea><br>
+	</div>
+	<input type="text" class="wordcount" id="wordcount" value="0"> <br><br><br><br>
+</body>
+</html>

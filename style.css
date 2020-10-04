@@ -1,0 +1,68 @@
+body {
+	user-select: none;
+	background-color: rgb(232, 237, 237);
+	resize: none;
+}
+
+#wordcount{
+	border: 0;
+	color: transparent;
+	height: 5vh;
+	width: 5vw;
+	background: transparent;
+}
+
+#window1{
+	border: 0;
+	font-size: 3vh;
+	font-family: sans-serif;
+	width: 95%;
+	padding: 1vw;
+	background: transparent;
+	resize: none;
+	align-content: center;
+	pointer-events: none;
+}
+
+.audio_text{
+	display: inline-block;
+}
+
+.button_speak {
+	border: 0;
+	font-size: 2vh;
+	font-family: sans-serif;
+	padding-bottom: 3vh;
+	background: transparent;
+	user-select: none;
+}
+
+#window2 {
+	border: 1px;
+	width: 100%;
+	border-top-color: white;
+	font-size: 3vh;
+	font-family: sans-serif;
+	padding: 1%;
+	user-select: none;
+	overflow-y: scroll;
+	min-height: 30vh;
+	resize: none;
+	pointer-events: none;
+	background: transparent;
+}
+
+#window3{
+	border: 1px;
+	width: 100%;
+	border-top-color: white;
+	font-size: 3vh;
+	font-family: sans-serif;
+	padding: 1%;
+	user-select: none;
+	overflow-y: scroll;
+	min-height: 30vh;
+	resize: none;
+	pointer-events: none;
+	background: transparent;
+}
