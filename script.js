@@ -1,8 +1,6 @@
-alert("Switch to Mobile view");
-
 function load_(){
   var load_count = localStorage.getItem("wordcount");
-  alert(load_count);
+  //alert(load_count);
   if (load_count <= 0){swipe_message();}
   else{
     var obj_load = JSON.parse(list_sheet1);
