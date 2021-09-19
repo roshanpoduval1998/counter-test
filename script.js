@@ -1,3 +1,5 @@
+alert("Switch to Mobile view");
+
 function load_(){
   var load_count = localStorage.getItem("wordcount");
   alert(load_count);
